@@ -2,11 +2,17 @@ cask "trace-commons" do
   version "0.2.0"
   sha256 "REPLACE_ON_FIRST_RELEASE_see_docs_release-runbook.md"
 
-  url "https://github.com/TraceCommons/trace-commons-server/releases/download/app-v#{version}/TraceCommons-#{version}.dmg"
+  url "https://github.com/TraceCommons/trace-commons-server/releases/download/app-v#{version}/TraceCommons-#{version}-arm64.dmg"
   name "Trace Commons"
   desc "Contributes your coding session traces to the Trace Commons corpus"
   homepage "https://tracecommons.ai/"
 
+  # The release job builds only on macos-14 (arm64) with no lipo/universal
+  # step, so the DMG above is Apple-silicon-only. Without this, an Intel Mac
+  # on Sonoma would install successfully and then fail to launch. See
+  # docs/release-runbook.md in trace-commons-server for the real fix
+  # (a universal build), which is not done yet.
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "TraceCommons.app"
