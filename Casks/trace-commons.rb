@@ -13,12 +13,7 @@ cask "trace-commons" do
   # docs/release-runbook.md in trace-commons-server for the real fix
   # (a universal build), which is not done yet.
   depends_on arch: :arm64
-  # ">= :sonoma", not a bare :sonoma. A bare symbol in the cask DSL means
-  # EXACTLY that release, so a bare value would refuse every Mac on Sequoia or
-  # later -- which, combined with the arm64 constraint above, is most Apple
-  # silicon Macs. `brew style` suggests the bare form as "redundant"; it is not
-  # redundant here, it changes a floor into an equality.
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TraceCommons.app"
 
