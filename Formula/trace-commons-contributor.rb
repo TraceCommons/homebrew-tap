@@ -1,17 +1,17 @@
 class TraceCommonsContributor < Formula
   desc "CLI for contributing coding session traces to the Trace Commons corpus"
   homepage "https://tracecommons.ai/"
-  version "0.1.0"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/TraceCommons/trace-commons-server/releases/download/contributor-v#{version}/trace-commons-contributor-aarch64-apple-darwin.zip"
-      sha256 "9bb976995a1e35713f00366bd15d37179a6ae331249f2c6212c9506e85b08b1f"
+      sha256 "2c64c5e3c26eb26c5fdf0364aef467641fb0169ac8c8397f602debd70efe9c9d"
     end
     on_intel do
       url "https://github.com/TraceCommons/trace-commons-server/releases/download/contributor-v#{version}/trace-commons-contributor-x86_64-apple-darwin.zip"
-      sha256 "0f50f860c860bd4445993db93af3051594abc9acb13b168e8a212f8b4e83cb9b"
+      sha256 "857c855dc21f02e6adb1294586b671a3aa8d6933278ae632e1d077a7b5affbda"
     end
   end
 
