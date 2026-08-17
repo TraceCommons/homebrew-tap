@@ -1,6 +1,6 @@
 cask "trace-commons" do
-  version "0.2.0"
-  sha256 "b5f04d6cf5a62156bc5c1e4c3e8245087f30623d8aa53dd0b7193164372fbac5"
+  version "0.2.1"
+  sha256 "5602ae06e6878f7e79f023b2bcf785a26d76a963aa8dbf993966024affd7dc92"
 
   url "https://github.com/TraceCommons/trace-commons-server/releases/download/app-v#{version}/TraceCommons-#{version}.dmg"
   name "Trace Commons"
