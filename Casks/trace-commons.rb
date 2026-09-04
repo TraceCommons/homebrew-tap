@@ -2,13 +2,13 @@ cask "trace-commons" do
   version "0.8.0"
   sha256 "43fac3160919c1f56b5d9f18771859c34f4c921a1c9e0fb3edc3511f77da13f0"
 
-  url "https://github.com/TraceCommons/trace-commons-server/releases/download/app-v#{version}/TraceCommons-#{version}.dmg"
+  url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/TraceCommons-#{version}.dmg"
   name "Trace Commons"
   desc "Contributes your coding session traces to the Trace Commons corpus"
   homepage "https://tracecommons.ai/"
 
   # The DMG is a universal (arm64 + x86_64) build -- see
-  # docs/release-runbook.md in trace-commons-server -- so there is no
+  # docs/release-runbook.md in trace-commons -- so there is no
   # arch restriction here.
   depends_on macos: :sonoma
 
