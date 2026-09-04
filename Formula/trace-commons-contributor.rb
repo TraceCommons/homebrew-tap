@@ -6,11 +6,11 @@ class TraceCommonsContributor < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/TraceCommons/trace-commons-server/releases/download/contributor-v#{version}/trace-commons-contributor-aarch64-apple-darwin.zip"
+      url "https://github.com/TraceCommons/trace-commons/releases/download/contributor-v#{version}/trace-commons-contributor-aarch64-apple-darwin.zip"
       sha256 "097078ebfc9f63dba4f1397a266c5a2914ebef50f0680acd2fd57aad6001349a"
     end
     on_intel do
-      url "https://github.com/TraceCommons/trace-commons-server/releases/download/contributor-v#{version}/trace-commons-contributor-x86_64-apple-darwin.zip"
+      url "https://github.com/TraceCommons/trace-commons/releases/download/contributor-v#{version}/trace-commons-contributor-x86_64-apple-darwin.zip"
       sha256 "39f0c447cb5639d2402933d6799891f1d8297af33d24489edfcd122bc5f00ad1"
     end
   end
