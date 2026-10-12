@@ -3,7 +3,7 @@ cask "trace-commons" do
   sha256 "c2cf4b8b0908991bc5e9a4dc833d0fd30e030b1d4ae2cad44f3306be6351dd21"
 
   url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/Near.ai-#{version}.dmg"
-  name "Trace Commons"
+  name "Near.ai"
   desc "Contributes your coding session traces to the Trace Commons corpus"
   homepage "https://tracecommons.ai/"
 
