@@ -1,8 +1,8 @@
 cask "trace-commons" do
-  version "0.12.6"
-  sha256 "bd47d726de4def4ab61fa821f6aae5687f314bf04862a7a60fc3af6ee2d8b40f"
+  version "0.13.0"
+  sha256 "51f931c653e8a10d1ead16cebd35c9c01022222f84d1f3169e6ec45f7f8e5819"
 
-  url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/TraceCommons-#{version}.dmg"
+  url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/Near.ai-#{version}.dmg"
   name "Trace Commons"
   desc "Contributes your coding session traces to the Trace Commons corpus"
   homepage "https://tracecommons.ai/"
@@ -12,7 +12,7 @@ cask "trace-commons" do
   # arch restriction here.
   depends_on macos: :sonoma
 
-  app "TraceCommons.app"
+  app "Near.ai.app"
 
   # The app registers itself as a login item through SMAppService. Deleting a
   # running bundle strands an entry in System Settings > General > Login
