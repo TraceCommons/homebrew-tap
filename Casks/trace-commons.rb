@@ -4,7 +4,7 @@ cask "trace-commons" do
 
   url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/Near.ai-#{version}.dmg"
   name "Near.ai"
-  desc "Contributes your coding session traces to the Trace Commons corpus"
+  desc "Private AI for your coding tools, and credit for traces you share"
   homepage "https://tracecommons.ai/"
 
   # The DMG is a universal (arm64 + x86_64) build -- see

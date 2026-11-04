@@ -1,5 +1,5 @@
 class TraceCommonsContributor < Formula
-  desc "CLI for contributing coding session traces to the Trace Commons corpus"
+  desc "Share coding traces and earn credit, from the command line"
   homepage "https://tracecommons.ai/"
   version "0.24.0"
   license any_of: ["MIT", "Apache-2.0"]
