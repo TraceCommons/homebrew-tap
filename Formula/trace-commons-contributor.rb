@@ -1,17 +1,17 @@
 class TraceCommonsContributor < Formula
   desc "Share coding traces and earn credit, from the command line"
   homepage "https://tracecommons.ai/"
-  version "0.24.0"
+  version "0.24.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/TraceCommons/trace-commons/releases/download/contributor-v#{version}/trace-commons-contributor-aarch64-apple-darwin.zip"
-      sha256 "67db1982427a2072fa0d354f711527969660eb5783aaebda477e29d463683542"
+      sha256 "876ce07dfa027f98c035c01c930e5b6559acf7531f49d0c37c036f18a7fce0a8"
     end
     on_intel do
       url "https://github.com/TraceCommons/trace-commons/releases/download/contributor-v#{version}/trace-commons-contributor-x86_64-apple-darwin.zip"
-      sha256 "ae9705e0fe0966031848c4cac12c70d7aa27f00c1f97fd99b5a2d410ae818fa9"
+      sha256 "cd6e4b855a89d0ded73938ef6c9e688deb9ed777d50d70ab4b11cad0983311fd"
     end
   end
 
