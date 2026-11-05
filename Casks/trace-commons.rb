@@ -1,6 +1,6 @@
 cask "trace-commons" do
-  version "0.24.5"
-  sha256 "2352966574dc745e93b71f7b26194e87ea547fb0362bf56ec4e650abb5023230"
+  version "0.24.6"
+  sha256 "09dfa15ccad0a9d4eb369be7bf60be50242bc5da025debc8e4c585c2642d86d1"
 
   url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/Near.ai-#{version}.dmg"
   name "Near.ai"
