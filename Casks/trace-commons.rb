@@ -1,8 +1,8 @@
 cask "trace-commons" do
-  version "1.0.2"
-  sha256 "075052758f6ba05fbc55d6846359683a92a4b66f64c3b36bce6c87d34e5f6cce"
+  version "1.0.3"
+  sha256 "af61a675962716c5d04e123c2206460ccdb2bf53de84d2609fd12fafb9c85643"
 
-  url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/Near.ai-#{version}.dmg"
+  url "https://github.com/TraceCommons/trace-commons/releases/download/app-v#{version}/Gateway-#{version}.dmg"
   name "Near.ai"
   desc "Private AI for your coding tools, and credit for traces you share"
   homepage "https://tracecommons.ai/"
